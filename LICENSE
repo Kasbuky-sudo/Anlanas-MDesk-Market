@@ -206,10 +206,10 @@
 Copyright 2026 Kasbuky-sudo
 
 The Apache-2.0 license above covers the repository scaffolding, shared
-documentation and original adapter/packaging code in this repository.
+documentation and original packaging scripts in this repository.
 
-Each application under apps/ may bundle or adapt third-party software. Those
-components remain under their own licenses and are NOT relicensed by this
-file; see the README and LICENSE (if present) inside each app directory.
-Official installers, runtimes and proprietary binaries are not distributed
-in this repository.
+Each application under apps/ remains under its own license; see the README
+and LICENSE (if present) inside that app directory. M·Desk, MPK and the
+official developer documentation belong to their respective owners. This is
+an independent, unofficial market and is not affiliated with or endorsed by
+M·Desk.
