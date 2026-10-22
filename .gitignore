@@ -1,0 +1,30 @@
+# 构建产物与本地测试数据
+**/dist/
+**/.build-staging/
+**/out/
+/build/
+/arm64/
+
+# 官方安装包 / 运行时（专有，不入库）
+*.deb
+*.rpm
+*.AppImage
+*.fpk
+*.mpk
+fnpack-*
+
+# 依赖与日志
+node_modules/
+*.log
+.env
+.env.*
+var/
+data/
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.idea/
+.vscode/
