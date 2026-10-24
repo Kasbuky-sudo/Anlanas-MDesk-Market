@@ -3,9 +3,9 @@
   "id": "mdesk.trae2api",
   "packageId": "mdesk.trae2api",
   "name": "Trae2api CN",
-  "summary": "Trae CN / Trae Solo CN 模型反代，提供 OpenAI 兼容 API 与网页控制台：多账号轮询、工具调用、流式输出、每日签到和积分记录。自带 Python 运行时，无需系统依赖。",
+  "summary": "把 Trae CN / Trae Solo CN 的模型通道包装成 OpenAI 兼容 API：多账号轮询、工具调用、流式输出、每日签到和积分记录，带网页控制台。",
   "category": "AI",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "author": "Anlanas",
   "developer": "autumnsentiment",
   "architectures": [
@@ -14,10 +14,10 @@
   ],
   "icon": "icons/mdesk.trae2api.svg",
   "detail": "mdesk.trae2api.json",
-  "introduction": "Trae CN / Trae Solo CN 模型反代，提供 OpenAI 兼容 API 与网页控制台：多账号轮询、工具调用、流式输出、每日签到和积分记录。自带 Python 运行时，无需系统依赖。",
+  "introduction": "Trae2api CN 把 Trae CN / Trae Solo CN 的 Remote、IDE、Work 模型通道包装成 OpenAI 兼容 API，支持 Chat Completions、Responses 与 Anthropic Messages 三种接口，适合接入各类聊天客户端、脚本和 Agent 工具。\n\n主要功能：\n- 多账号轮询与自动切换，单账号异常时自动换号重试\n- 支持工具调用（Function Calling）、流式输出与思考强度控制\n- 网页控制台管理账号、切换上游端点、查看积分与消费记录\n- 每日自动签到，支持查看签到结果\n- 内置 Trae 网页授权登录流程\n\n使用方法：安装后从应用中心打开网页控制台，按页面提示完成 Trae 网页授权；首次启动会生成随机 API Key，调用 /v1/* 接口时使用 Authorization: Bearer \u003ckey\u003e。\n\n注意：网页授权和下载授权助手脚本需要在完整浏览器中完成，因此该应用默认在浏览器新标签页打开。数据保存在 M·Desk 应用数据目录，升级不会丢失。\n\n非官方打包，与 Trae / 字节跳动及上游作者无隶属关系，仅供学习与个人使用。",
   "package": {
-    "path": "packages/mdesk.trae2api-1.0.9.mpk",
-    "sha256": "1bfe250740d3c9befe6f82193858004aad0cb134ae76396d13d9090c8775bd92",
-    "size": 66874892
+    "path": "packages/mdesk.trae2api-1.0.10.mpk",
+    "sha256": "0da18ac779fea324fa62ff2bb87654f5e6e16a2d94295726b7234cd6806f24dd",
+    "size": 66877953
   }
 }
