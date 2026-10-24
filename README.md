@@ -23,19 +23,6 @@ https://raw.githubusercontent.com/Kasbuky-sudo/Anlanas-MDesk-Market/main/
 
 仓库脚手架与 README 使用 Apache-2.0；`packages/` 内各应用仍受其上游许可证约束。
 
-## 宿主机访问说明（LG）
+## 说明
 
-M·Desk 拉源是宿主机行为。LG 宿主机有两层问题：
-
-1. 直连 GitHub raw 会被 GFW 重置，目前靠 Fluxor（mihomo TUN）代理；
-2. GitHub raw 给 `.json` 返回的 `Content-Type` 是 `text/plain`，而 M·Desk 的详情接口要求 `application/json`，会报 `unexpected JSON content type "text/plain"`。结果是列表能刷新，但应用详情和从源安装会返回 502。
-
-因此 LG 上的 M·Desk 订阅使用本机镜像（返回 `application/json`）：
-
-```text
-http://127.0.0.1:18081/
-```
-
-- 镜像目录 `/opt/mdesk-market/`，由 systemd 服务 `mdesk-market.service` 以 loopback HTTP 提供，已 enable（`systemctl status mdesk-market`）；
-- 镜像内容来自本仓库：`git push` 后把仓库打成 tar，经局域网传到宿主机的 `/opt/mdesk-market/` 解压，无需重启服务；
-- GitHub raw 地址保留给能直连、且客户端不校验 JSON MIME 的环境。以后如果给仓库启用 GitHub Pages（Pages 会返回 `application/json`），可以直接把订阅换成 Pages 地址。
+M·Desk 2.7.114 及更早版本的客户端可能不接受 manifest 中的 `store` 段；本仓库的包按 2026-10-24 版开发者标准构建，建议使用较新的 M·Desk 客户端。
