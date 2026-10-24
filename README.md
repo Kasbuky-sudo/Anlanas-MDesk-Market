@@ -7,8 +7,10 @@ M·Desk 三方订阅源（纯静态目录）。
 添加到 M·Desk：**应用中心 → 三方订阅源 → 管理订阅**。
 
 ```text
-https://raw.githubusercontent.com/Kasbuky-sudo/Anlanas-MDesk-Market/main/
+https://kasbuky-sudo.github.io/Anlanas-MDesk-Market/
 ```
+
+用 GitHub Pages 而不是 `raw.githubusercontent.com`：raw 给 `.json` 返回 `text/plain`，M·Desk 的详情接口只接受 `application/json`，会导致详情和从源安装报 502。
 
 ## 收录
 
