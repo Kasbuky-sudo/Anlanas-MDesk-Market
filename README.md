@@ -17,9 +17,9 @@ https://kasbuky-sudo.github.io/Anlanas-MDesk-Market/
 | 应用 | packageId | 版本 | 架构 | 打开方式 |
 |---|---|---|---|---|
 | 米游签 | `mdesk.miyouqian` | 1.0.6 | amd64 / arm64 | 桌面窗口内（`in-app`） |
-| Trae2api CN | `mdesk.trae2api` | 1.0.10 | amd64 / arm64 | 浏览器新标签页（`new-tab`） |
+| Trae2api CN | `mdesk.trae2api` | 1.0.11 | amd64 / arm64 | 桌面窗口内（`in-app`） |
 
-两个应用都自带运行时和依赖，不依赖 M·Desk 应用中心提供 Node/Python 等依赖包；均为 native + socket，不占用宿主机端口。Trae2api 的网页授权和授权助手脚本下载需要完整浏览器，因此声明 `new-tab`。
+两个应用都自带运行时和依赖，不依赖 M·Desk 应用中心提供 Node/Python 等依赖包；均为 native + socket，不占用宿主机端口，控制台都在 M·Desk 窗口内打开。
 
 ## 许可
 
