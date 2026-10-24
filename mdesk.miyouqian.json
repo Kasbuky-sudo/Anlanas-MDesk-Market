@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "mdesk.miyouqian",
+  "packageId": "mdesk.miyouqian",
+  "name": "米游签",
+  "summary": "米游社每日签到工具：扫码登录、游戏社区签到、云游戏签到（云原神/云绝区零）、米游币任务、商品兑换，带 Web 控制台。自带 Python 运行时，无需系统依赖。",
+  "category": "工具",
+  "version": "1.0.5",
+  "author": "Anlanas",
+  "developer": "Marchen-orz",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/mdesk.miyouqian.png",
+  "detail": "mdesk.miyouqian.json",
+  "introduction": "米游社每日签到工具：扫码登录、游戏社区签到、云游戏签到（云原神/云绝区零）、米游币任务、商品兑换，带 Web 控制台。自带 Python 运行时，无需系统依赖。",
+  "package": {
+    "path": "packages/mdesk.miyouqian-1.0.5.mpk",
+    "sha256": "e59553dfd752d7cbfbbd4838783186f89ab8f5310c44bec6beb38a6ba14955f7",
+    "size": 69758227
+  }
+}

@@ -1,18 +1,9 @@
-# 脚本与 JSON 在 Linux / macOS 上使用，统一 LF
-* text=auto eol=lf
-
-*.sh text eol=lf
-*.json text eol=lf
-*.md text eol=lf
-LICENSE text eol=lf
-.gitattributes text eol=lf
-.gitignore text eol=lf
-
-# 二进制不走转换
+*.mpk binary
 *.png binary
 *.jpg binary
 *.jpeg binary
 *.webp binary
-*.mpk binary
-*.gz binary
-*.zip binary
+*.json text eol=lf
+*.md text eol=lf
+*.svg text eol=lf
+LICENSE text eol=lf

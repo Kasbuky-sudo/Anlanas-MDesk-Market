@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "name": "M·Desk 应用",
+  "updatedAt": "2026-10-24T13:12:37+08:00",
+  "apps": [
+    {
+      "schema": 1,
+      "id": "mdesk.miyouqian",
+      "packageId": "mdesk.miyouqian",
+      "name": "米游签",
+      "summary": "米游社每日签到工具：扫码登录、游戏社区签到、云游戏签到（云原神/云绝区零）、米游币任务、商品兑换，带 Web 控制台。自带 Python 运行时，无需系统依赖。",
+      "category": "工具",
+      "version": "1.0.5",
+      "author": "Anlanas",
+      "developer": "Marchen-orz",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "icons/mdesk.miyouqian.png",
+      "detail": "mdesk.miyouqian.json",
+      "introduction": "米游社每日签到工具：扫码登录、游戏社区签到、云游戏签到（云原神/云绝区零）、米游币任务、商品兑换，带 Web 控制台。自带 Python 运行时，无需系统依赖。"
+    },
+    {
+      "schema": 1,
+      "id": "mdesk.trae2api",
+      "packageId": "mdesk.trae2api",
+      "name": "Trae2api CN",
+      "summary": "Trae CN / Trae Solo CN 模型反代，提供 OpenAI 兼容 API 与网页控制台：多账号轮询、工具调用、流式输出、每日签到和积分记录。自带 Python 运行时，无需系统依赖。",
+      "category": "AI",
+      "version": "1.0.9",
+      "author": "Anlanas",
+      "developer": "autumnsentiment",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "icon": "icons/mdesk.trae2api.svg",
+      "detail": "mdesk.trae2api.json",
+      "introduction": "Trae CN / Trae Solo CN 模型反代，提供 OpenAI 兼容 API 与网页控制台：多账号轮询、工具调用、流式输出、每日签到和积分记录。自带 Python 运行时，无需系统依赖。"
+    }
+  ]
+}
