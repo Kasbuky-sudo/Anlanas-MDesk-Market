@@ -7,10 +7,16 @@ M·Desk 三方订阅源（纯静态目录）。
 添加到 M·Desk：**应用中心 → 三方订阅源 → 管理订阅**。
 
 ```text
-https://kasbuky-sudo.github.io/Anlanas-MDesk-Market/
+https://anlanasmdesk-1259122558.cos.ap-beijing.myqcloud.com/
 ```
 
-用 GitHub Pages 而不是 `raw.githubusercontent.com`：raw 给 `.json` 返回 `text/plain`，M·Desk 的详情接口只接受 `application/json`，会导致详情和从源安装报 502。
+腾讯云 COS 静态目录（公有读）。COS 返回 `application/json`，也没有 GitHub 的 100MB 单文件限制，WorkBuddy 的两个 300MB 安装包放在这里。
+
+GitHub Pages 镜像仍然保留，但只收录两个小应用（大包超过 GitHub 单文件上限）：
+
+```text
+https://kasbuky-sudo.github.io/Anlanas-MDesk-Market/
+```
 
 ## 收录
 
@@ -18,8 +24,10 @@ https://kasbuky-sudo.github.io/Anlanas-MDesk-Market/
 |---|---|---|---|---|
 | 米游签 | `mdesk.miyouqian` | 1.0.6 | amd64 / arm64 | 桌面窗口内（`in-app`） |
 | Trae2api CN | `mdesk.trae2api` | 1.0.11 | amd64 / arm64 | 桌面窗口内（`in-app`） |
+| WorkBuddy | `mdesk.workbuddy` | 5.6.3 | arm64 | 桌面窗口内（`in-app`） |
+| WorkBuddy | `mdesk.workbuddy.x64` | 5.6.3 | amd64 | 桌面窗口内（`in-app`） |
 
-两个应用都自带运行时和依赖，不依赖 M·Desk 应用中心提供 Node/Python 等依赖包；均为 native + socket，不占用宿主机端口，控制台都在 M·Desk 窗口内打开。
+以上应用都自带运行时和依赖，不依赖 M·Desk 应用中心提供 Node/Python 等依赖包；均为 native + socket，不占用宿主机端口，控制台都在 M·Desk 窗口内打开。WorkBuddy 因为单包文件数超过 mpkpack 的 20000 上限，按架构拆成两个同名条目。
 
 ## 许可
 
