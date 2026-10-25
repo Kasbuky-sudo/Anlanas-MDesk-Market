@@ -7,10 +7,10 @@ M·Desk 三方订阅源（纯静态目录）。
 添加到 M·Desk：**应用中心 → 三方订阅源 → 管理订阅**。
 
 ```text
-https://anlanasmdesk-1259122558.cos.ap-beijing.myqcloud.com/
+https://anlanasmdesk-hk-1259122558.cos.ap-hongkong.myqcloud.com/
 ```
 
-腾讯云 COS 静态目录（公有读）。COS 返回 `application/json`，也没有 GitHub 的 100MB 单文件限制，WorkBuddy 的两个 300MB 安装包放在这里。
+腾讯云 COS 香港地域静态目录（公有读，免备案）。COS 返回 `application/json`，也没有 GitHub 的 100MB 单文件限制，WorkBuddy 的两个 300MB 安装包放在这里。
 
 GitHub Pages 镜像仍然保留，但只收录两个小应用（大包超过 GitHub 单文件上限）：
 
